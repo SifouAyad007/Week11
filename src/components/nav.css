@@ -1,0 +1,31 @@
+*{
+  font-family: 'calibry' , 'sans-serif';
+
+}
+.head{
+    position: fixed;
+    border: solid , 2px , black;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  a{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+.active{
+    border: solid , 2px , blue ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align:  center;
+  }
+  
